@@ -1,0 +1,14 @@
+/* Ensure the body and html take up full screen */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply h-full; /* Make html and body take full height */
+  @apply overflow-auto; /* Allow scrolling */
+}
+
+/* You can also add this to ensure your page is always scrollable */
+body {
+  @apply bg-gradient-to-br from-indigo-50 to-purple-100; /* Example background */
+}
